@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'TRnning regression tests'
+                echo 'Running regression tests'
             }
         }
         stage('UAT') {
